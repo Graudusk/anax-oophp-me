@@ -11,4 +11,4 @@ namespace Anax\View;
 
 ?>
 
-FOOTER
+&copy; Erik Johansson 2018

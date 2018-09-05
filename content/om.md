@@ -1,18 +1,16 @@
 ---
 ---
-Om
+Om kursen
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
-
-Denna webbplatsen är en del av kursen [XXX](https://dbwebb.se/kurser/XXX). Uppdatera så att länken går till kursens hemsida på dwebb.se.
+Denna webbplatsen är en del av kursen [oophp](https://dbwebb.se/kurser/oophp-v4).
 
 Några egna kloka ord om kursen?
 
 En fin och representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/oophp.jpg?w=300 caption="Adekvat bild tillhörande kursen."]
 
-Länka till [dbwebb kursrepot på GitHub](https://github.com/dbwebbse/XXX).
+[Kursrepot på Github](https://github.com/dbwebb-se/oophp).
 
-Länka till [ditt eget repo för me/redovisa på GitHub](https://github.com/XXX/XXX).
+[Min me/redovisa på GitHub](https://github.com/Graudusk/anax-oophp-me).

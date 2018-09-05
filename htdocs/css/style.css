@@ -1,6 +1,5 @@
-/**
- * General setup for layout.
- */
+@import url("https://fonts.googleapis.com/css?family=Sanchez|Titillium+Web|Roboto");
+
 html {
     overflow-y: scroll;
     background-color: #424242;
@@ -8,13 +7,24 @@ html {
 
 body {
     margin: 0;
-    background-color: #fff;
+    background-color: #333;
     word-wrap: break-word;
+    color: #ddd;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 100%;
+}
+
+body a,
+body a:visited,
+body a:hover,
+body a:active,
+body a:focus {
+    color: #fff;
 }
 
 .outer-wrap {
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #333;
 }
 
 .inner-wrap {
@@ -24,14 +34,14 @@ body {
 }
 
 
-
 /**
  * Header
  */
+
 .outer-wrap-header {
     max-width: 100%;
     min-height: 2em;
-    background-color: #000;
+    background-color: #111;
     color: #fff;
 }
 
@@ -50,10 +60,10 @@ body {
 }
 
 
-
 /**
  * Navbar
  */
+
 .outer-wrap-navbar {
     max-width: 100%;
     min-height: 2em;
@@ -71,10 +81,10 @@ body {
 }
 
 
-
 /**
  * Main
  */
+
 .outer-wrap-main {
     min-height: 20em;
     margin-bottom: 4em;
@@ -93,10 +103,10 @@ h1 {
 }
 
 
-
 /**
  * Footer
  */
+
 .outer-wrap-footer {
     max-width: 100%;
     min-height: 10em;
@@ -106,10 +116,10 @@ h1 {
 }
 
 
-
 /**
  * Responsive
  */
+
 @media screen and (max-width: 970px) {
     .header-logo {
         display: none;
