@@ -6,7 +6,7 @@ Min me-sida för kursen oophp
 
 [FIGURE src="image/me.jpg?w=500" caption="Det här är jag"]
 
-Mitt namn är Erik Johansson och jag är 26 år. Jag är född och uppvuxen i Enköping mellan Västerås och Uppsala. 
+Mitt namn är Eric Johansson och jag är 26 år. Jag är född och uppvuxen i Enköping mellan Västerås och Uppsala. 
 
 Som liten intresserade jag mig mycket för tv- och datorspel. Det förde mig in på intresset att modda spel.
 Jag gick också ett IT-program på gymnasiet på grund av mitt intresse för datorer och där fick jag vidgat intresse för till exempel 3d-grafik, webdesign, programmering etc.
@@ -19,4 +19,4 @@ Samtidigt som jag pluggar har jag rest runt med min sambo till bland annat Japan
 
 Mina hobbies är att spela gitarr, spela tv-spel, resa, laga mat och reparera kod.
 
-/Erik
+/Eric
