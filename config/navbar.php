@@ -24,6 +24,11 @@ return [
         "title" => "Lek runt och testa att integrera kod i me-sidan.",
     ],
     [
+        "text" => "Gissa",
+        "url" => "gissa",
+        "title" => "Gissa runt och testa att integrera kod i me-sidan.",
+    ],
+    [
         "text" => "Development",
         "url" => "dev",
         "title" => "Anax development and debugging utilities.",
