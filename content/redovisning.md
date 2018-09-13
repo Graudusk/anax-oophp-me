@@ -5,9 +5,14 @@ Redovisning
 
 * [Kmom01](#kmom01)
 * [Kmom02](#kmom02)
+<!-- * [Kmom03](#kmom03)
+* [Kmom04](#kmom04)
+* [Kmom05](#kmom05)
+* [Kmom06](#kmom06)
+* [Kmom10](#kmom10) -->
 
-<div id="kmom01"></div>
-Kmom01
+
+Kmom01 <a class="float-right header-anchor" href="#kmom01" id="kmom01">#</a>
 -------------------------
 
 ###Hur känns det att hoppa rakt in i objekt och klasser med PHP, gick det bra och kan du relatera till andra objektorienterade språk?
@@ -35,7 +40,7 @@ Hur man jobbar med objekt, traits och klasser i PHP var jag inte insatt i så v�
 
 
 <div id="kmom02"></div>
-Kmom02
+Kmom02 <a class="float-right header-anchor" href="#kmom02" id="kmom02">#</a>
 -------------------------
 
 
@@ -65,36 +70,20 @@ Som sagt är det bra att skriva kod inuti ramverk när man känner till det för
 Att jobba med routers, session och egentligen allmänna saker i Anax-ramverket. Namespace är också något som jag har stött på tidigare och använt mig av utan att förstå till 100%. Nu var det bra att få klarhet i vad den innebär och används till.
 
 
-
-Kmom03
+<!-- 
+Kmom03 <a class="float-right header-anchor" href="#Kmom03" id="Kmom03">#</a>
 -------------------------
 
-
-
-
-
-Kmom04
+Kmom04 <a class="float-right header-anchor" href="#kmom04" id="kmom04">#</a>
 -------------------------
 
-
-
-
-
-Kmom05
+Kmom05 <a class="float-right header-anchor" href="#kmom05" id="kmom05">#</a>
 -------------------------
 
-
-
-
-
-Kmom06
+Kmom06 <a class="float-right header-anchor" href="#kmom06" id="kmom06">#</a>
 -------------------------
 
-
-
-
-
-Kmom07-10
+Kmom07-10 <a class="float-right header-anchor" href="#kmom10" id="kmom10">#</a>
 -------------------------
-
+ -->
 

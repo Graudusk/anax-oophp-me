@@ -27,6 +27,26 @@ body {
     padding: 0 0.5em;
 }
 
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.header-anchor {
+    text-decoration: none;
+    font-style: italic;
+    opacity: 0;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h2:hover .header-anchor{
+    opacity: 1;
+}
 
 
 /**
