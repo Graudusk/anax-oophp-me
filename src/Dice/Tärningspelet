@@ -1,0 +1,13 @@
+Tärningspelet
+
+Starta spelet
+skapa spelare
+    sätt spelarid
+    sätt poäng
+    sätt ifall spelaren är kontrollerad av människa
+
+starta första rundan, bestäm spelarordning
+    rulla tärning, pusha current_players id till order
+    spara spelordning i array i Game
+    skapa variabel "canRoll" för att hindra spelaren från att kasta fler tärningar 
+    skapa knapp för att lämna över turen till nästa spelare

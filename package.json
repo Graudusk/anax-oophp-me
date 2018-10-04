@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -d",
     "watch": "webpack -d --watch",
-    "sass-compile": "node-sass htdocs/sass/base.scss htdocs/css/style.css --indent-width 4",
+    "sass-compile": "sass htdocs/sass/base.scss htdocs/css/style.css",
+    "sass-node-compile": "node-sass htdocs/sass/base.scss htdocs/css/style.css --indent-width 4",
     "sass-watch": "nodemon -e scss -x \"npm run sass-compile\""
   },
   "repository": {

@@ -26,7 +26,12 @@ return [
     [
         "text" => "Gissa",
         "url" => "gissa",
-        "title" => "Gissa runt och testa att integrera kod i me-sidan.",
+        "title" => "Spela gissa-spelet.",
+    ],
+    [
+        "text" => "Dice",
+        "url" => "tarning",
+        "title" => "Spela tärningspel.",
     ],
     [
         "text" => "Development",
