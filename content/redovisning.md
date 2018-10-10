@@ -7,8 +7,8 @@ Redovisning
 * [Kmom02](#kmom02)
 * [Kmom03](#kmom03)
 * [Kmom04](#kmom04)
-<!--* [Kmom05](#kmom05)
-* [Kmom06](#kmom06)
+* [Kmom05](#kmom05)
+<!--* [Kmom06](#kmom06)
 * [Kmom10](#kmom10) -->
 
 
@@ -132,10 +132,39 @@ Jag fick hög kodtäckning på de klasser jag skapade till spelet, 98.70 %, och 
 Logik i datorspelares intelligens var något jag fick fundera länge på och undersöka vad bästa vägen att gå var. Också att använda sig av histogram och visa upp det på bästa sätt var något nytt att handskas med.
 
 
-<!-- 
+
 Kmom05 <a class="float-right header-anchor" href="#kmom05" id="kmom05">#</a>
 -------------------------
 
+
+
+###Några reflektioner kring koden i övningen för PHP PDO och MySQL?
+
+Koden kändes väldigt klar i övningen och lätt att ta till sig. I och med det var det lätt att jobba igenom övningen och det gick fort att göra klart den. Det som var svårt att sätta upp var att få koden att fungera på studentservern och att sätta inställningarna för den biten.
+
+###Hur gick det att överföra koden in i ramverket, stötte du på några utmaningar?
+
+En utmaning var att jag ville ha en snygg url för alla routes, till exempel "movies/view/1" för att titta på en enskild film, men det var krångligt att få till en route som visar både select-formuläret samt en enskild vald films information. Eftersom att jag ändå fick lov att ha flera routes för att lösa det så bestämde jag mig för att inte lägga för mycket tid på att lösa den biten och istället gå vidare till att göra klart de viktiga kraven för uppgiften.
+
+Precis som på övningen var det krångligt att få det att fungera lika bra på lokala datorn som på studentservern och det krävde ett par uppdateringar och uppladdningar av koden innan det fungerade med MySQL.
+
+Annars stötte jag inte på några problem och eftersom att koden fungerade bra på övningsuppgiften så var den lätt att föra in i ramverket. Visserligen var det saker som behövdes göras för att den skulle fungera och samarbeta med ramverkets funktioner och $app-objektet, men det var 100% möjliga krav att lösa och tog inte så lång tid.
+
+###Berätta om din slutprodukt för filmdatabasen, gjorde du endast basfunktionaliteten eller lade du till extra features och hur tänkte du till kring användarvänligheten och din kodstruktur?
+
+Jag ligger lite för mycket efter med planeringen för att kunna lägga alltför mycket tid på extrauppgifter och andra features på uppgiften. Jag tycker att det räckte att göra en stabil och väl fungerande baslösning och hoppas att den är tillräckligt bra för att inte dra ner betyget i slutändan. Jag är nöjd med resultatet men vill gärna ha tid på mig att göra jättebra ifrån mig i slutprojektet i den här kursen och då behöver jag bli klar med uppgifterna i god tid innan jag ska komma igång att arbeta med den.
+
+###Vilken är din TIL för detta kmom?
+
+Controllers som Mikael gick igenom i slutet på förra veckans föreläsning var något nytt för mig och verkade intressant. Jag ser fram emot att lära mig mer om det i nästa kurs. 
+
+I övrigt var det ett bra sätt att stärka gamla kunskaper i att använda PDO och hur samarbetet mellan PHP och MySQL-databaser fungerar.
+
+
+
+
+
+<!-- 
 Kmom06 <a class="float-right header-anchor" href="#kmom06" id="kmom06">#</a>
 -------------------------
 
