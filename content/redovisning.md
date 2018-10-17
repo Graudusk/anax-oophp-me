@@ -8,8 +8,8 @@ Redovisning
 * [Kmom03](#kmom03)
 * [Kmom04](#kmom04)
 * [Kmom05](#kmom05)
-<!--* [Kmom06](#kmom06)
-* [Kmom10](#kmom10) -->
+* [Kmom06](#kmom06)
+<!--* [Kmom10](#kmom10) -->
 
 
 Kmom01 <a class="float-right header-anchor" href="#kmom01" id="kmom01">#</a>
@@ -164,11 +164,32 @@ I övrigt var det ett bra sätt att stärka gamla kunskaper i att använda PDO o
 
 
 
-<!-- 
+
 Kmom06 <a class="float-right header-anchor" href="#kmom06" id="kmom06">#</a>
 -------------------------
 
-Kmom07-10 <a class="float-right header-anchor" href="#kmom10" id="kmom10">#</a>
+
+###Hur gick det att jobba med klassen för filtrering och formatting av texten?
+
+Den var klockren att jobba med och använda i följande uppgiften. Det följde med tydlig information och artiklar som gjorde det enkelt att skapa egna metoder till klassen. Jag hade lite problem med att läsa in Markdown-modulen och använda den p.g.a. vad jag tror var krock med namespaces. 
+
+###Berätta om din klasstruktur och kodstruktur för din lösning av webbsidor med innehåll i databasen.
+
+Jag försökte hålla allt så enkelt som möjligt för mig själv när jag skrev routern. Jag lyfte ur allt som skulle göras in i min Content klass. För varje route skapar jag en instans av klassen COntent och injectar objectet $app in till den. Beroende på vilken sida routern kallar på görs olika anrop till klassens metoder och skickar med argument som routerb fångar upp om det behövs. För varje anrop skickas klassobjektet med till sidan som läses in och innehållet hämtas ut från objektet.
+
+###Hur känner du rent allmänt för den koden du skrivit i din me/redovisa, vad är bra och mindre bra? Ser du potential till refactoring av din kod och/eller behov av stöd från ramverket?
+
+Vad jag tycker är bra med koden jag skrivit är att den fungerar som den ska och jag har garderat mig med mycket felhantering i koden. Koden är för övrigt strukturerad på ett bra sätt och är tydlig med vad den gör. Vad jag hade kunnat göra bättre är att föra mer kommentarer över mina routes. Att lyfta ut koden till klassen Content gjorde koden mycket mer lättare och mer DRY. Det var också lättare att förbättra koden som hämtar innehåll till sidorna som läses ut när de hade förts in i klassens kod.
+
+###Vilken är din TIL för detta kmom?
+
+Att jobba med klasser och routes, specifikt att injecta och föra vidare objektdata har blivit tydligare hur man gör i.o.m. detta kmom.
+
+Biten om filtrering var mycket lärorik och det tog jag till mig. Det var lättare än vad det verkade och det känns inte som att det finns allt för svåra saker som det går att ta till sig. Det gav mig en liten confidence-boost. Om jag nu inte misslyckades fullkomligt.
+
+
+
+<!-- Kmom07-10 <a class="float-right header-anchor" href="#kmom10" id="kmom10">#</a>
 -------------------------
  -->
 

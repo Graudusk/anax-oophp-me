@@ -178,3 +178,80 @@ h1 {
 .dice-sprite.dice-4 { background-position: -64px 0; }
 .dice-sprite.dice-5 { background-position: -32px 0; }
 .dice-sprite.dice-6 { background-position: 0 0; }
+
+h1 {
+    border-bottom: 1px double #ccc;
+}
+
+main {
+    min-height: 10em;
+}
+
+table {
+    border: 1px solid #000;
+    padding: 0.5em;
+}
+
+tr.first {
+    background-color: #555;
+}
+
+tr:hover {
+    background-color: #111;
+}
+
+th {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+img.thumb {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+a.icons {
+    color: inherit;
+}
+
+a:hover.icons {
+    opacity: 0.7;
+}
+
+input[type=text],
+input[type=datetime],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    height: 200px;
+}
+
+label {
+    font-size: small;
+}
+
+input,
+textarea,
+legend,
+button {
+    font-size: large;
+}
+
+article {
+    margin-bottom: 24px;
+}

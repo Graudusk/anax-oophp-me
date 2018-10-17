@@ -39,6 +39,16 @@ return [
         "title" => "Sök på filmer.",
     ],
     [
+        "text" => "Textfilter",
+        "url" => "filter",
+        "title" => "Användning av textfilter.",
+    ],
+    [
+        "text" => "Content",
+        "url" => "content",
+        "title" => "Content management.",
+    ],
+    [
         "text" => "Development",
         "url" => "dev",
         "title" => "Anax development and debugging utilities.",
